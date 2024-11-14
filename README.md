@@ -38,13 +38,18 @@ This is a Project Management API built with Django and Django REST Framework. It
     ```sh
     python manage.py runserver
     ```
-### API Documentation
+## API Documentation
 
-1.Swagger UI: 
+1. **Swagger UI**:
+    You can access the interactive Swagger UI documentation for the API at:
     ```sh
     http://127.0.0.1:8000/swagger/
     ```
-2.Redoc: 
+
+2. **Redoc**:
+    For an alternative view of the API documentation, you can use Redoc:
     ```sh
     http://127.0.0.1:8000/redoc/
     ```
+
+These links will allow you to explore and test the API endpoints directly from the browser.
