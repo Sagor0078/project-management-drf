@@ -40,5 +40,5 @@ This is a Project Management API built with Django and Django REST Framework. It
     ```
 ### API Documentation
 
-## Swagger UI: http://127.0.0.1:8000/swagger/
-## Redoc: http://127.0.0.1:8000/redoc/
+Swagger UI: http://127.0.0.1:8000/swagger/
+Redoc: http://127.0.0.1:8000/redoc/
