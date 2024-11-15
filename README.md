@@ -94,3 +94,8 @@ To stop the application, run:
 ```sh
 docker-compose down
 ```
+
+### continue...
+1. need custom error handeling
+2. pagination 
+3. background processing
