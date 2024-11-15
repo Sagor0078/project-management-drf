@@ -53,3 +53,44 @@ This is a Project Management API built with Django and Django REST Framework. It
     ```
 
 These links will allow you to explore and test the API endpoints directly from the browser.
+
+
+## Docker Setup
+
+### Build and Run the Application
+
+1. **Build the Docker images and start the containers:**
+
+    ```sh
+    docker-compose up --build
+    ```
+
+2. **Run the Django migrations:**
+
+    ```sh
+    docker-compose run web python manage.py migrate
+    ```
+
+3. **Create a superuser:**
+
+    ```sh
+    docker-compose run web python manage.py createsuperuser
+    ```
+
+4. **Collect static files:**
+
+    ```sh
+    docker-compose run web python manage.py collectstatic
+    ```
+
+5. **Access the application:**
+
+    Open your web browser and go to `http://localhost:8000`.
+
+### Stopping the Application
+
+To stop the application, run:
+
+```sh
+docker-compose down
+```
